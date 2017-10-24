@@ -7,4 +7,13 @@ dependencies {
 	provided group: "javax.ws.rs", name: "javax.ws.rs-api", version: "2.0.1"
 	provided group: "org.osgi", name: "org.osgi.service.component.annotations", version: "1.3.0"
 	provided project(":apps:foundation:vulcan:vulcan-api")
+
+	testCompile group: "co.unruly", name: "java-8-matchers", version: "1.5"
+	testCompile group: "com.openpojo", name: "openpojo", version: "0.8.6"
+	testCompile group: "com.spotify", name: "hamcrest-optional", version: "1.1.0"
+	testCompile group: "org.apache.commons", name: "commons-io", version: "1.3.2"
+	testCompile group: "org.hamcrest", name: "hamcrest-all", version: "1.3"
+	testCompile group: "org.mockito", name: "mockito-all", version: "1.8.4"
+	testCompile group: "org.skyscreamer", name: "jsonassert", version: "1.5.0"
+	testCompile group: "pl.pragmatists", name: "JUnitParams", version: "1.1.0"
 }
