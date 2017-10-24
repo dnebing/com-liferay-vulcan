@@ -12,7 +12,7 @@
  * details.
  */
 
-package com.liferay.vulcan.jaxrs.json.internal.request;
+package com.liferay.vulcan.writer.request;
 
 import com.liferay.vulcan.language.Language;
 import com.liferay.vulcan.response.control.Embedded;
@@ -90,7 +90,7 @@ public class RequestInfo {
 
 	/**
 	 * Use instances of this builder to create {@link RequestInfo} instances.
- *
+	 *
 	 * @review
 	 */
 	public static class Builder {

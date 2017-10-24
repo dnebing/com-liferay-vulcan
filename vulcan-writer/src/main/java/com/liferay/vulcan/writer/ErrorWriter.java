@@ -12,14 +12,14 @@
  * details.
  */
 
-package com.liferay.vulcan.jaxrs.json.internal.writer;
+package com.liferay.vulcan.writer;
 
 import com.google.gson.JsonObject;
 
-import com.liferay.vulcan.jaxrs.json.internal.JSONObjectBuilderImpl;
 import com.liferay.vulcan.message.json.ErrorMessageMapper;
 import com.liferay.vulcan.message.json.JSONObjectBuilder;
 import com.liferay.vulcan.result.APIError;
+import com.liferay.vulcan.writer.internal.json.JSONObjectBuilderImpl;
 
 import java.util.Optional;
 

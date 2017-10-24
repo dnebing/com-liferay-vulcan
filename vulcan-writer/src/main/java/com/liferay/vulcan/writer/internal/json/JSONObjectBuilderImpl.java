@@ -12,7 +12,7 @@
  * details.
  */
 
-package com.liferay.vulcan.jaxrs.json.internal;
+package com.liferay.vulcan.writer.internal.json;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
