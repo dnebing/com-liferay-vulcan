@@ -16,7 +16,7 @@ package com.liferay.vulcan.message.hal.internal;
 
 import com.google.gson.JsonObject;
 
-import com.liferay.vulcan.jaxrs.json.internal.JSONObjectBuilderImpl;
+import com.liferay.vulcan.writer.internal.json.JSONObjectBuilderImpl;
 
 import org.junit.Assert;
 import org.junit.Before;

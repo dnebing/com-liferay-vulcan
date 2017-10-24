@@ -16,8 +16,8 @@ package com.liferay.vulcan.message.json.ld.internal;
 
 import com.google.gson.JsonObject;
 
-import com.liferay.vulcan.jaxrs.json.internal.JSONObjectBuilderImpl;
-import com.liferay.vulcan.jaxrs.json.internal.StringFunctionalList;
+import com.liferay.vulcan.writer.internal.json.JSONObjectBuilderImpl;
+import com.liferay.vulcan.writer.internal.list.StringFunctionalList;
 
 import java.util.Arrays;
 
